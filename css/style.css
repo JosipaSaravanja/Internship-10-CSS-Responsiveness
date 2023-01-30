@@ -1,0 +1,22 @@
+:root {
+    --dark-blue: #101820;/*Tamno plava (pozadina) #101820*/
+    --light-blue: #89e6d9;/*Svijetlo plava (efektici) #89e6d9*/
+    --button-blue: #0042ce;/*Plava (botuni) #0042ce*/
+    --light-gray: #eaeaea;/*Svijetlo siva (borderi) #eaeaea*/
+  }
+  
+  * {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-blue);
+  }
+    
+  a {
+    text-decoration: none;
+  }
+    
