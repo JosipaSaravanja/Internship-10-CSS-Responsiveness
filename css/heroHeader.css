@@ -1,0 +1,39 @@
+.headerHero {
+    position: relative;
+    height: 500px;
+    margin-bottom: 130px;
+}
+
+.headerHero-content {
+    color: white;
+    position: sticky;
+    top: 130px;
+    z-index: -2;
+    margin: auto;
+    padding: 0 25px;
+    max-width: 450px;
+}
+
+.headerHero-content > h1 {
+    font-family: "Times New Roman", Times, serif;
+    max-width: 900px;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+@media screen and (min-width: 800px) {
+    .headerHero {
+        margin-top: 150px;
+    }
+
+    .headerHero-content {
+        padding: auto 25px;
+        max-width: 1200px;
+    }
+
+    .headerHero-content h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+}
+
