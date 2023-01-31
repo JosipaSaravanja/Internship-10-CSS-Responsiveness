@@ -4,6 +4,7 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 70px;
 }
 
 #whyTiller-background {
@@ -31,6 +32,7 @@
   line-height: 36px;
   font-family: "Times New Roman", Times, serif;
 }
+
 #whyTiller-content > h5 {    
   font-size: 20px;
   line-height: 28px;
@@ -68,7 +70,7 @@
 @media screen and (min-width: 900px) {
   #whyTiller {
     width: 100%;
-    height: 450px;
+    height: 500px;
     max-width: 1200px;
   }
 

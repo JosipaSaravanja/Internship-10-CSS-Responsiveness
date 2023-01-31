@@ -1,0 +1,128 @@
+
+@media screen and (min-width: 900px) {
+    #footerWrapper {
+        max-width: 1200px;
+    }
+
+    #footer-columns {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer-logo {
+        display: block;
+        align-self: flex-start;
+    }
+
+    #certificates {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-legal {
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+    }
+}
+  
+.footer-logo, #certificates {
+    display: none;
+}
+
+#footer {
+    padding: 0;
+    background-color: white;
+    font-size: 14px;
+    line-height: 18px;
+    /*display: flex;
+    justify-content:  center;*/
+}
+
+#footerWrapper {
+    padding: 50px 50px 10px 50px;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-columns {
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-lists {
+    padding-top: 16px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-lists > a {
+    padding-top: 10px;
+    color: black;
+    transition: all 0.2s ease-in;
+}
+
+.footer-lists a:first-child {
+    padding-top: 0;
+}
+
+.footer-lists > a:hover {
+    color: var(--light-blue);
+}
+
+#footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 2px solid var(--button-blue);
+    color: var(--button-blue);
+    transition: all 0.2s ease-in;
+}
+
+#footer-triangle {
+    margin-top: 0;
+    margin-left: 4px;
+    height: 5px;
+    border: 5px solid transparent;
+    border-left-color: var(--button-blue);
+    transition: all 0.2s ease-in;
+}
+
+#footer-button:hover {
+    background-color: var(--button-blue);
+    color: white;
+}
+
+#footer-button:hover #footer-triangle {
+    border-left-color: white;
+}
+
+#social {
+    padding: 25px 0;
+}
+
+#social > a {
+    padding-right: 15px;
+}
+
+#footer-legal {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#footer-legal > a {
+    padding-right: 15px;
+    color: black;
+    transition: all 0.2s ease-in;
+}
+
+#footer-legal > a:hover {
+    color: var(--light-blue);
+}
+
