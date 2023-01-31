@@ -36,6 +36,7 @@
     font-size: 26px;
     line-height: 40px;
 }
+
 @media screen and (min-width: 900px) {
     #partnershipsWrapper {
       max-width: 1200px;
