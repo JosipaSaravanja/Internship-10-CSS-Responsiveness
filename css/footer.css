@@ -1,32 +1,4 @@
 
-@media screen and (min-width: 900px) {
-    #footerWrapper {
-        max-width: 1200px;
-    }
-
-    #footer-columns {
-        justify-content: space-between;
-        flex-direction: row;
-    }
-
-    .footer-logo {
-        display: block;
-        align-self: flex-start;
-    }
-
-    #certificates {
-        justify-content: space-between;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #footer-legal {
-        font-size: 12px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
-    }
-}
   
 .footer-logo, #certificates {
     display: none;
@@ -126,3 +98,32 @@
     color: var(--light-blue);
 }
 
+
+@media screen and (min-width: 900px) {
+    #footerWrapper {
+        max-width: 1200px;
+    }
+
+    #footer-columns {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer-logo {
+        display: block;
+        align-self: flex-start;
+    }
+
+    #certificates {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-legal {
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+    }
+}

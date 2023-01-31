@@ -21,7 +21,7 @@
     line-height: 50px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .headerHero {
         margin-top: 150px;
         height: 800px;

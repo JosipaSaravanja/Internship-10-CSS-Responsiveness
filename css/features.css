@@ -1,0 +1,124 @@
+#features h1, .features-elements h2{
+  font-family: "Times New Roman", Times, serif;
+}
+
+#features {
+  padding-top: 50px 25px ;
+  color: white;
+  max-width: 450px;
+  margin: auto;
+}
+
+#features h1{
+  font-size: 30px;
+  line-height: 44px;
+}
+
+#featuresWrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#features-image {
+  display: flex;
+  justify-content: center;
+}
+
+#features-image img {
+  width: 250px;
+}
+
+.features-element {
+  display: block;
+  margin-bottom: 200px;
+}
+
+.features-element b {
+  font-family: 'mirador', serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.features-element h2 {
+  font-family: 'mirador', serif;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.features-element-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 60px;
+  color: white;
+  width: 180px;
+  border: 2px solid white;
+  padding: 5px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in;
+}
+
+.features-element-button:hover  .features-triangle {
+  border-left-color: var(--button-blue);
+}
+
+.features-element-button:hover {
+  background-color: white;
+  color: var(--button-blue);
+}
+
+.features-triangle {
+  height: 5px;
+  border: 5px solid transparent;
+  margin-top: 0 ;
+  margin-left: 4px;
+  border-left-color: white;
+  transition: all 0.2s ease-in;
+}
+
+@media screen and (min-width: 900px) {
+  #features {
+    margin-top: 130px;
+    max-width: 1200px;
+  }
+  
+  #features h1{
+    font-size: 50px;
+    line-height: 70px;
+  }
+  
+  #featuresWrapper {
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  #features-image {
+    display: block;
+    position: sticky;
+    top: 150px;
+  }
+  
+  #features-image img  {
+    width: 500px;
+    margin: auto 100px 150px auto;
+  }
+  
+  .features-element h2 {
+    font-family: 'mirador', serif;
+    font-size: 42px;
+    line-height: 60px;
+  }
+
+  .features-element b {
+    display: inline-block;
+    font-family: 'mirador', serif;
+    font-size: 26px;
+    line-height: 40px;
+  }
+}

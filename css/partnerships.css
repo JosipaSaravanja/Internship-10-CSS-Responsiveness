@@ -1,0 +1,55 @@
+#partnerships {
+    margin: 60px 0 ;
+    padding: 24px;
+    width: 100%;
+    overflow: scroll;
+    background-color: white;
+}
+  
+#partnershipsWrapper {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#partnershipsWrapper h1 {
+    font-size: 45px;
+    line-height: 70px;
+    font-family: 'mirador', serif;
+}
+
+.swipe-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.swipe-item-image {
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+
+.swipe-item b{
+    font-size: 26px;
+    line-height: 40px;
+}
+@media screen and (min-width: 900px) {
+    #partnershipsWrapper {
+      max-width: 1200px;
+      margin: auto;
+      align-items: flex-start;
+    }
+  
+    #partnerships-swipe {
+      margin: 0;
+      display: flex;
+    }
+  
+    .swipe-item {
+      min-width: 400px;
+    }
+}
+  
