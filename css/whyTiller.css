@@ -1,0 +1,108 @@
+#whyTiller {
+  width: 375px;
+  height: 350px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#whyTiller-background {
+  display: block;
+  height: 310px;
+  width: 375px;
+  background-color: var(--light-blue);
+  position: absolute;
+  bottom: -25px;
+  right: 0px;
+}
+
+#whyTiller-content {
+  background-color: white;
+  width: 350px;
+  height: 450px;
+  padding: 24px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#whyTiller-content > h3{
+  font-size: 26px;
+  line-height: 36px;
+  font-family: "Times New Roman", Times, serif;
+}
+#whyTiller-content > h5 {    
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#whyTiller-button {
+  background-color: var(--button-blue);
+  width: 160px;
+  height: 50px;
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in;
+}
+
+#whyTiller-triangle {
+  margin-top: 0;
+  margin-left: 4px;
+  height:5px;
+  border: 5px solid transparent;
+  border-left-color: white;
+}
+
+#whyTiller-button :hover {
+  background-color: var(--light-blue);
+}
+
+#whyTiller-content > img {
+  display: none;
+}
+@media screen and (min-width: 900px) {
+  #whyTiller {
+    width: 100%;
+    height: 450px;
+    max-width: 1200px;
+  }
+
+  #whyTiller-content {
+    padding: 30px 70px;
+    width: calc(100% - 64px - 50px);
+    height: 550px;
+    margin-left: 32px;
+    left: 0px;
+    bottom: 0px;
+  }
+  
+  #whyTiller-background {
+    margin-left: 32px;
+    margin-right: 32px;
+    width: calc(100% - 50px);
+    height: 500px;
+    left: 0px;
+    bottom: -60px;
+  }
+  
+  #whyTiller-content > h3{
+    font-size: 42px;
+    line-height: 60px;
+  }
+
+  #whyTiller-content > h5 {
+    font-size: 26px;
+        line-height: 40px;
+    }
+
+  #whyTiller-content > img {
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+}

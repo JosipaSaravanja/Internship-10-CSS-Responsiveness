@@ -1,6 +1,6 @@
 .headerHero {
     position: relative;
-    height: 500px;
+    height: 750px;
     margin-bottom: 130px;
 }
 
@@ -10,7 +10,7 @@
     top: 130px;
     z-index: -2;
     margin: auto;
-    padding: 0 25px;
+    padding: auto 25px;
     max-width: 450px;
 }
 
@@ -24,6 +24,7 @@
 @media screen and (min-width: 800px) {
     .headerHero {
         margin-top: 150px;
+        height: 800px;
     }
 
     .headerHero-content {
